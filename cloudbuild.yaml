@@ -1,0 +1,4 @@
+steps:
+  - id: "Rodando go test"
+    name: 'gcr.io/cloud-builders/go'
+    args: ['run', 'src/fullcycle-golang-2/main.go']
